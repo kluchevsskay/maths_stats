@@ -27,9 +27,9 @@ ax.set_title('гистограмма относительных частот')
 ax.hist(data, edgecolor='violet', linewidth=1.2, color='pink')
 
 print('среднее ' + str(statistics.fmean(data)),
-      'дисперсия' + str(statistics.pvariance(data)),
-      'ср квадратичное отклонение' + str(np.std(data)),
-      'коэффицент вариации' + str(statistics.variance(data)), sep='\n')
+      'дисперсия ' + str(statistics.pvariance(data)),
+      'ср квадратичное отклонение ' + str(np.std(data)),
+      'коэффицент вариации ' + str(statistics.variance(data)), sep='\n')
 
 ints = st.norm.interval(confidence=0.99,
                         loc=np.mean(data),
