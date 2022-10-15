@@ -1,5 +1,6 @@
 # maths_stats
-## или первая практика по матстату и терверу в вузе selection_work
+## или первая практика по матстату и терверу в вузе 
+## [selection_work](https://github.com/kluchevsskay/maths_stats/blob/main/selection_work.py)
 
 *работа с выборкой*
 
